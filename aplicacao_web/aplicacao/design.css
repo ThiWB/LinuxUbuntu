@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+img{
+    min-width: 70%;
+    max-width: 70%;
+    margin-left: -100px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.text-container{
+    font-family: 'Pixelify Sans';
+    color: white;
+    width: 30%;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 1100px;
+    margin-top: -650px;
+}
+
+.button{
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: gray;
+    margin-left: 45px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background: linear-gradient(135deg, #ff0000, #3a0000);
+}
