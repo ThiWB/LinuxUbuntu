@@ -1,0 +1,11 @@
+FROM httpd:latest
+
+WORKDIR /usr/local/apache2/htdocs/
+COPY index.html /usr/local/apache2/htdocs/
+COPY design.css /usr/local/apache2/htdocs/
+COPY git_icon.png /usr/local/apache2/htdocs/
+COPY image.jpg /usr/local/apache2/htdocs/
+COPY instagram_icon.png /usr/local/apache2/htdocs/
+COPY linkedin_icon.png /usr/local/apache2/htdocs/
+
+EXPOSE 80

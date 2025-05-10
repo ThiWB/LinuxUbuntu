@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    margin: 0; 
+    overflow-x: hidden; 
+}
+
+img {
+    max-width: 70%; 
+    display: block; 
+    margin: 20px auto 0 -100px; 
+    height: auto; 
+}
+
+h1 {
+    text-align: center;
+    color: white; 
+}
+
+h3 {
+    text-align: center;
+    color: white; 
+}
+
+.text-container {
+    font-family: 'Pixelify Sans';
+    color: white;
+    width: 30%;
+    font-size: 20px;
+    text-align: justify;
+    position: absolute;
+    top: 50%; 
+    right: 15%; 
+    transform: translateY(-50%); 
+}
+
+.button {
+    margin-left: 32px;
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 25px;
+    background-color: gray;
+    text-decoration: none;
+    width: fit-content;
+    line-height: 50px;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #ff0000, #3a0000);
+}
+
+@media (max-width: 1024px) {
+    img {
+        max-width: 90%;
+        margin: 20px auto 0 auto; 
+    }
+
+    .text-container {
+        position: static; 
+        width: 80%;
+        margin: 20px auto; 
+        text-align: center; 
+    }
+}
+
+@media (max-width: 600px) {
+    .text-container {
+        font-size: 16px;
+    }
+}
